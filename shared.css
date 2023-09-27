@@ -1,16 +1,25 @@
 * {
   box-sizing: border-box;
 }
+html {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
+  padding: 0.1px;
 }
 .main-header {
   width: 100%;
   padding: 8px 16px;
   background-color: #2ddf5c;
   color: #0e4f1f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 .main-header a {
   text-decoration: none;
